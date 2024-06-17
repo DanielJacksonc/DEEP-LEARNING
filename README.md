@@ -24,6 +24,7 @@ This project demonstrates the use of convolutional neural networks (CNNs) for im
 - Utilizes a convolutional neural network (CNN)
 - Implements data augmentation to improve model performance
 - Provides visualizations of training progress and model predictions
+- logs every activity
 
 ## Installation
 
