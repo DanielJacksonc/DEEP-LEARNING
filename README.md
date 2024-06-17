@@ -93,15 +93,15 @@ data/
 
 The model is built using a convolutional neural network (CNN) with the following layers:
 
-- Convolutional layer with 32 filters and a 3x3 kernel
-- ReLU activation
+- Convolutional layer with 16 filters and a 3x3 kernel shape and stide of 1, passed through relu activation and then shows how our input looks like(256,256,3)
 - Max pooling layer with a 2x2 pool size
-- Convolutional layer with 64 filters and a 3x3 kernel
+- Convolutional layer with 32 filters and a 3x3 kernel
 - ReLU activation
 - Max pooling layer with a 2x2 pool size
 - Fully connected layer with 128 units
 - ReLU activation
-- Output layer with softmax activation
+- then we Flatten our output layer
+- Output layer with Relu and sigmoid activation
 
 ## Results
 
@@ -118,6 +118,7 @@ The model is built using a convolutional neural network (CNN) with the following
 | Image | Prediction | Actual |
 |-------|------------|--------|
 | ![happy1](![alt text](image-2.png)) | Happy | Happy |
+| ![sad](![alt text](image-3.png)) | Happy | Happy |
 
 
 ## Contributing
