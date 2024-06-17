@@ -107,18 +107,18 @@ The model is built using a convolutional neural network (CNN) with the following
 
 ### Training and Validation Accuracy
 
-(![alt text](image.png))
+![Accuracy](![alt text](image.png))
 
 ### Loss
 
-[alt text](image-1.png))
+(![alt text](image-1.png))
 
 ### Sample Predictions
 
 | Image | Prediction | Actual |
 |-------|------------|--------|
-| (![alt text](image-2.png)) | Happy | Happy |
-| (![alt text](image-3.png)) | Happy | Happy |
+| ![happy1](![alt text](image-2.png)) | Happy | Happy |
+| ![sad](![alt text](image-3.png)) | Happy | Happy |
 
 
 ## Contributing
