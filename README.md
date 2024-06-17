@@ -111,7 +111,7 @@ The model is built using a convolutional neural network (CNN) with the following
 
 ### Loss
 
-![Loss](![alt text](image-1.png))
+(![alt text](image-1.png))
 
 ### Sample Predictions
 
